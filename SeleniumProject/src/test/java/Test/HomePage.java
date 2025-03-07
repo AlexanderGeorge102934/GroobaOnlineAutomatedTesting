@@ -19,7 +19,6 @@ public class HomePage {
 	
 	@FindBy(xpath = "//button[text()='Sign up']")
     private WebElement signInButton;
-    
 
     public HomePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
